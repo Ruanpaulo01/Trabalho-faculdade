@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="formatos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Menu</a></li>
+            </ul>
+        </nav>
+        <img src="receitasdatia.png" alt="Logo do site" class="logo">
+    </header>
+
+    <main>
+        <section class="conteudo-centralizado">
+            <h1>Bem-vindo(a) ao site da Tia Jurema!</h1>
+            <p>Conheça deliciosas receitas para o dia a dia!</p>
+            <a href="cadastro.html" class="btn btn-primary">Cadastre-se</a> 
+            <a href="receitas.html" class="btn btn-secondary">Veja as Receitas</a> 
+        </section>
+    </main>
+    <footer class="rodape-destaque">
+        <p>&copy; Jurema 2024</p>
+    </footer>
+
+    <script>
+        if (window.location.href.indexOf("cadastro.html") > -1) {
+            document.querySelector("form").addEventListener("submit", function() {
+                window.location.href = "index.html";
+            });
+        }
+    </script>
+</body>
+</html>

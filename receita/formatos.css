@@ -1,0 +1,59 @@
+/*home.css */
+.logo {
+    display: block;
+    margin: 0 auto; 
+}
+
+
+.conteudo-centralizado {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+footer {
+    text-align: center; 
+}
+
+body {
+    background-color:darksalmon
+}
+.rodape-destaque {
+    background-color: black; 
+    color: white; 
+    padding: 10px 0; 
+}
+
+
+/* receitas.css */
+
+.receitas-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+}
+
+.receita {
+    background-color:cornsilk;
+    padding: 10px;
+    border-radius: 10px;
+    width: calc(50% - 10px); 
+}
+
+.receita img {
+    width: 70%; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.receita h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
